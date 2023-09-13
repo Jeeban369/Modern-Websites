@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: General Sans Medium;
+}
+html, body{
+    height: 100%;
+    width:100%
+}
+
+.mouseFollower{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1);
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    z-index: 999;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.main{
+    width: 100%;
+    background-color: black;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-color:  black;
+}
+.nav{
+    height: 70px;
+    width: 100%;
+    padding: 20px 45px;
+    background-color: rgb(15, 16, 17);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav>a{
+    text-decoration: none;
+    color: white;
+}
+.nav>h2{
+    color: white;
+}
+.herobox1{
+    color: white;
+    margin-left: 45px;
+    margin-top: 80px;
+}
+.herobox1 h1{
+    font-size: 10.5vw;
+    font-weight: 320;
+    opacity: 0.7;
+}
+/*ANIMATION TO UP LIFTING STARTED*/
+.bounding{
+    width: fit-content;
+    overflow: hidden;
+
+}
+.bounding .boundingelm{
+    transform: translateY(100%);
+}
+.bounding .boundingelm1{
+    transform: translateY(-100%);
+}
+
+/* ANIMATION-2 ENDED*/
+
+.herobox2{
+    margin-top: -5.5%;
+    margin-left: 11%;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.herobox2 h4{
+    margin-top: -2.3%;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 17px;
+}
+.rside_cont{
+    color: white;
+    text-transform: uppercase;
+    text-align: right;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+#gap_rside{
+    padding-top: 12px;
+}
+.rside_cont h5{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/*hero_footer work*/
+
+.hero_btm{
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero_btm a{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+.iconbox{
+    display: flex;
+    gap: 5px;
+}
+.iconbox .crc_arrow{
+    height: 25px;
+    width: 25px;
+    background-color: aliceblue;
+    opacity: 0.7;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.protopie{
+    margin-right: 15%;
+}
+
+/*page-2 work*/
+
+.page2{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    padding-top: 15%;
+    padding-inline: 40px;
+    padding-right: 10%;
+}
+.elem{
+    position: relative;
+    width: 100%;
+    border-top: 1px solid #888;
+    padding: 3vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.elem h1{
+    text-transform: uppercase;
+    color: white;
+    font-size: 7vw;
+    font-weight: 400;
+    opacity: 0.7;
+}
+.elem h6{
+    color: white;
+    font-size: 1.1vw;
+    font-weight: 300;
+}
+.elem_last{
+    border-bottom: 1px solid #888;
+}
+.elem img{
+    position: absolute;
+    height: 140%;
+    z-index: 10;
+    display: none;
+}
+
+/*page3 work*/
+.page3{
+    width: 100%;
+    height: 155vh;
+    background-color: black;
+    padding-top: 15%;
+}
+.content{
+    display: flex;
+    align-items: center;
+    gap: 6vw;
+    padding: 10vw 10vw;
+    padding-left: 25vw ;
+    font-size: 18px;
+    margin-left: 10%;
+}
+.page3 img{
+    height: 32vh;
+}
+.page3 .about{
+    color: white;
+}
+.page3 .about .content p{
+    line-height: 1.7;
+    font-weight: 500;
+
+}
+.letsTalk{
+    padding-top: 25px;
+}
+.page3 .content a{
+    font-size: 17px;
+    font-weight: 300;
+    border: 1px solid #fff;
+    padding: 5px 22px;
+    text-decoration: none;
+    color: white;
+    border-radius: 100px;
+    margin-top: 30%;
+}
+
+/* footer section */
+.subscribe{
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    margin-top: 5%;
+}
+.subscribe h3{
+    font-size: 15px;
+    font-weight: 400;
+}
+.subscribe h5{
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+
+.page3 .footter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: absolute;
+    padding: 20px 40px;
+    width: 100%;
+    margin-top: 23vh;
+}
+.footter .datetime{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
+.footter .social_link{
+    color: white;
+    display: flex;
+
+}
+.footter .social_link a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 15px;
+}
